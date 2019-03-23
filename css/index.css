@@ -1,5 +1,10 @@
 @media only screen and (max-width: 2160px) {
 
+	html, body {
+		max-width: 100%;
+    overflow-x: hidden;
+	}
+
 	.resume {
 		color:#0099cc;
 	}
@@ -8,12 +13,12 @@
 		border-bottom: 2px solid black;
 		position:absolute;
 		bottom:0px;
-		width:80%;
-		left:10%;
+		width:90%;
+		left:5%;
 	}
 
 	.image-of-projects {
-		width:500px;
+		width:550px;
 	}
 
 	.center-block {
@@ -51,8 +56,8 @@
 		position:absolute;
 		bottom:0px;
 		height: 1px;
-		width: 80%;
-		left:10%;
+		width: 90%;
+		left:5%;
 	}
 
 	.menu {
@@ -171,6 +176,9 @@
 	.work-title {
 		padding-top:40px;
 	}
+	.social-media--links--container {
+		top:80%;
+	}
 }
 
 @media (max-width:768px) {
@@ -198,7 +206,7 @@
 	}
 
 	#border {
-		bottom:180px;
+		bottom:150px;
 	}
 
 	.container-projects {
@@ -214,12 +222,21 @@
 	}
 
 	.work-title {
-		padding-top:50px;
+		padding-top:90px;
 	}
 
-	@media(max-width:500px) {
-		.social-media--links--container {
-			top:53%;
-		}
+	.social img {
+		width:30px;
+	}
+
+	.middle {
+		position:relative;
+		top:25px;
+	}
+}
+
+@media(max-width:500px) {
+	.social-media--links--container {
+		top:53%;
 	}
 }
